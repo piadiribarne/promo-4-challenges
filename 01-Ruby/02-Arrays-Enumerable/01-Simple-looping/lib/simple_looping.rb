@@ -19,9 +19,7 @@ end
 
 def sum_recursive(min, max)
     return min if min == max
-    if min < max
-    min + sumrecursive(min + 1, max)
-	elsif 
+    min + sum_recursive(min + 1, max)
   # CONSTRAINT: you should use a recursive algorithm, i.e. the method should call itself
 end
 
