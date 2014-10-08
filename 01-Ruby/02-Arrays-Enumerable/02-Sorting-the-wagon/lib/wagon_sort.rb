@@ -1,3 +1,6 @@
 def wagon_sort(students)
-  # TODO: return (not print!) a copy of students, sorted alphabetically
+  students_array = students.sort_by do |student| 
+  	student.downcase 
+  end
+  return students_array
 end
