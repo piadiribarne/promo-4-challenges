@@ -3,5 +3,5 @@ def bugged_concatenate(array)
 end
 
 def build_1984_title
-  bugged_concatenate(1, "9", 84, " ", "George Orwell")
+  bugged_concatenate([1.to_s, "9", 84.to_s, " ", "George Orwell"])
 end
