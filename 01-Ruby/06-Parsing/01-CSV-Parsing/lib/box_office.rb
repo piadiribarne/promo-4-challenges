@@ -8,16 +8,16 @@ def most_successfull(number, max_year, filepath)
 	CSV.foreach(filepath, csv_options) do |row|
 		movies << {
 			name: row[0],
-			date: row[1].to_i,
+			year: row[1].to_i,
 			earnings: row[2].to_i
 		}
 	end 
-	movies
 
 	# sort by earnings
-	sorted_movies = movies.select {|movie| movie[:date] < max_year }.sort_by { |movie| -movie[:earnings] }
-	p sorted_movies.take(number)
+	sorted_movies = movies.select {|movie| movie[:year] < max_year }.sort_by { |movie| -movie[:earnings] }
+
+	return sorted_movies.take(number)
 	
 end
 
-p most_successfull
+p most_successfull(10, 2003, "/Users/piadiribarne/code/piadiribarne/promo-4-challenges/01-Ruby/06-Parsing/01-CSV-Parsing/lib/movies.csv")
