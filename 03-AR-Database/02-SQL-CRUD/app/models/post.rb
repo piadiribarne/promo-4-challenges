@@ -1,5 +1,5 @@
 require "sqlite3"
-DB = SQLite3::Database.new("/tmp/exo.sqlite")
+DB = SQLite3::Database.new("db/posts.db")
 
 class Post
   # TODO: implement some reader and/or writers
