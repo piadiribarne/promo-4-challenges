@@ -3,3 +3,32 @@
   width: 720px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+h1{
+  text-align: center;
+}
+
+header ul{
+  list-style: none;
+  text-align: center;
+}
+
+header ul li{
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header{
+  border-bottom: 1px dotted black;
+}
+
+.post ul{
+  list-style: square;
+}
+
+footer{
+  border-top: 1px dotted black;
+  padding: 10px;
+}
