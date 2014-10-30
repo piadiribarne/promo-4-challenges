@@ -3,3 +3,32 @@
   width: 840px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+header{
+  color: white;
+  background-color: black
+}
+
+header a{
+  color: white;
+}
+
+.nav-content{
+  width: 840px;
+  margin: 0 auto;
+}
+
+.nav-content h1{
+  display: inline;
+  line-height: 100px;
+
+}
+
+.nav-content nav{
+  display: inline;
+  margin-left: 100px;
+}
+
+.nav-content a {
+  padding-left: 20px;
+}
