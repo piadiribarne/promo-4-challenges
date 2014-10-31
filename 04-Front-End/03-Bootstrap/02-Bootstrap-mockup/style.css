@@ -1,0 +1,131 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar-transparent{
+  background: rgba(255,255,255, 0.3);
+  border: none;
+}
+
+.navbar-transparent .navbar-nav > li > a,
+.navbar-transparent .navbar-nav > li > a:hover
+{
+  color: #931ba3;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:focus{
+  line-height: 50px;
+  color: #931ba;
+}
+
+
+.banner{
+  background-image: url('https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/428881_443285865694649_1327604086_n.jpg?oh=ade5f12627826acb0ee45cb275fc2498&oe=54F5D3E8&__gda__=1423817529_d40aa077f7d7b54296bcfc90035ae8c1');
+  background-size: cover;
+  color: #931ba3;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  font-family: 'News Cycle', sans-serif;
+}
+
+
+.banner p {
+  font-weight: 300;
+}
+
+
+.btn-info{
+  padding: 10px 20px;
+  background-color: #931ba3;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover{
+  background-color: orange;
+  color: #931ba3;
+
+}
+
+.btn-primary{
+  background-color: #931ba3;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover{
+  background-color: orange;
+  color: #931ba3;
+
+}
+
+.light-grey-bg{
+  background-image: url('background2.png');
+  padding-top: 130px;
+  padding-bottom: 90px;
+}
+
+.feature{
+  font-weight: 200;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 10px purple;
+}
+
+.feature img{
+  padding: 10px;
+}
+
+.purple-bg{
+  color: white;
+  background: #931ba3;
+}
+
+.social{
+  text-align: right;
+}
+
+@media screen and (max-width: 640px) {
+  .social{
+    text-align: center;
+  }
+}
+
+.social a {
+  font-size: 30px;
+  line-height: 100px;
+  color: purple;
+  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: white;
+}
+
+.purple-bg p{
+  line-height: 100px;
+}
+
+.form-inline .form-control{
+  border: 3px solid purple;
+}

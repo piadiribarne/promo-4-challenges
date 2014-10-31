@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tangle Teezer</title>
+  <link rel="icon" href="colorfavicon.ico" />
+
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet" type='text/css'>
+
+  <link href='http://fonts.googleapis.com/css?family=News+Cycle|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="logo1.png" width="140"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="about.html">About Us</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Follow Us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="https://www.facebook.com/TangleTeezerUK?fref=ts"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+              <li><a href="https://www.facebook.com/TangleTeezerUK?fref=ts"><i class="fa fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <div class="text-center banner">
+    <h1><strong>TANGLE TEEZER</strong></h1>
+    <p>Cares for the hair you wear</p>
+    <a href="#" class="btn btn-info btn-lg" data-toggle="modal" data-target="#signup">ORDER ONLINE</a>
+  </div>
+
+  <div class="light-grey-bg">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="feature">
+            <h2>The Original</h2>
+            <img src="tangle1.png" width="200">
+            <p>The Original detangling hair brush</p>
+          </div>
+        </div>
+
+       <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="feature">
+            <h2>Aqua Splash</h2>
+            <img src="tangle2.png" width="200">
+            <p>Great for wet hair in the shower</p>
+          </div>
+        </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="feature">
+            <h2>Compact</h2>
+            <img src="compact3.png" width="200">
+            <p>Protective cover for a clean sweap</p>
+          </div>
+        </div>
+
+         <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="feature">
+            <h2>Ambassador</h2>
+            <img src="rikka.png" width="200">
+            <p>Rikka O'Dowd</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="text-center">
+      <h3>The Newsletter of Tangle Teezer</h3>
+      <form action="#" class="form-inline">
+        <input type="email" name="email" class="form-control" placeholder="Email address" autofocus>
+        <button type="submit" class="btn btn-primary">Follow Us</button>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="purple-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <p>Tangle Teezer is a registered trademark ©Tangle Teezer</p>
+        </div>
+        <div class="col-xs-6">
+          <div class="social">
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sign up</h4>
+          </div>
+          <div class="modal-body">
+
+            <form action="/">
+              <div class="form-group">
+                <label for="my-email">Enter your email</label>
+                <input type="email" name="email" id="my-email" class="form-control" placeholder="name.lastname@gmail.com">
+              </div>
+
+              <div class="form-group">
+                <label for="password">Enter your password</label>
+                <input type="password" name="password" id="password" class="form-control">
+              </div>
+
+              <input type="submit" value="Sign Up" class="btn btn-primary">
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
